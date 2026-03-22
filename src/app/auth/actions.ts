@@ -5,7 +5,6 @@ import { setSession } from "@/lib/session";
 import { UserRole } from "@/lib/types";
 
 function routeByRole(role: UserRole): string {
-  if (role === "admin") return "/admin";
   if (role === "doctor") return "/doctors";
   return "/patient";
 }

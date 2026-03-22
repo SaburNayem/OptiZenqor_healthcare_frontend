@@ -7,7 +7,6 @@ const links = [
   { href: "/doctors", label: "Doctors" },
   { href: "/appointments", label: "Appointments" },
   { href: "/reports", label: "Reports" },
-  { href: "/admin", label: "Admin" },
 ];
 
 export function SiteHeader() {

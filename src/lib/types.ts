@@ -1,4 +1,4 @@
-export type UserRole = "patient" | "doctor" | "admin";
+export type UserRole = "patient" | "doctor";
 
 export type UrgencyLevel = "LOW" | "MEDIUM" | "HIGH" | "CRITICAL";
 

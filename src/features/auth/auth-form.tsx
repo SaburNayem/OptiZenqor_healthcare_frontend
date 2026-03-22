@@ -20,7 +20,7 @@ export function AuthForm({ mode, action }: AuthFormProps) {
         <PageHeader
           className="my-auto"
           title={isLogin ? "Secure Login" : "Create Account"}
-          subtitle="Access a safety-first global care platform built for patients, clinicians, and administrators."
+          subtitle="Access a safety-first global care platform built for patients and clinicians."
         />
         <Card className="rounded-2xl border-border/70 bg-card/90 safety-shadow">
           <CardHeader>
@@ -52,7 +52,6 @@ export function AuthForm({ mode, action }: AuthFormProps) {
                 >
                   <option value="patient">Patient</option>
                   <option value="doctor">Doctor</option>
-                  <option value="admin">Admin</option>
                 </select>
               </div>
               <Button className="w-full" type="submit">
